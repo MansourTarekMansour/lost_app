@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lost_app/post/create_post_cubit/create_post_cubit.dart';
-import 'package:lost_app/post/widgets/create_post_dialog.dart';
+import 'package:lost_app/presentations/post/create_post_cubit/create_post_cubit.dart';
+import 'package:lost_app/presentations/post/widgets/create_post_dialog.dart';
 import 'package:lost_app/shared/components/post_card.dart';
 import 'package:lost_app/shared/components/text_button_class.dart';
 import 'package:lost_app/shared/components/text_class.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lost_app/post/widgets/card_type_post.dart';
+import 'package:lost_app/presentations/post/widgets/card_type_post.dart';
 import 'package:lost_app/shared/components/text_class.dart';
 import 'package:lost_app/shared/styles/color.dart';
 

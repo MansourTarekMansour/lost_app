@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lost_app/post/create_post_cubit/create_post_cubit.dart';
-import 'package:lost_app/post/widgets/post_not_found_dialog.dart';
+import 'package:lost_app/presentations/post/create_post_cubit/create_post_cubit.dart';
+import 'package:lost_app/presentations/post/widgets/post_not_found_dialog.dart';
 import 'package:lost_app/presentations/route/route_constants.dart';
 import 'package:lost_app/shared/components/navigator.dart';
 import 'package:lost_app/shared/components/text_class.dart';
-import 'package:lost_app/shared/components/toast.dart';
 import 'package:lost_app/shared/styles/color.dart';
 import 'package:lottie/lottie.dart';
 

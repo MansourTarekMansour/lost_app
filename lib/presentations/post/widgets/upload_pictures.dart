@@ -3,9 +3,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lost_app/post/create_post_cubit/create_post_cubit.dart';
-import 'package:lost_app/post/widgets/delete_photo_dialog.dart';
-import 'package:lost_app/post/widgets/display_photo_dialog.dart';
+import 'package:lost_app/presentations/post/create_post_cubit/create_post_cubit.dart';
+import 'package:lost_app/presentations/post/widgets/delete_photo_dialog.dart';
+import 'package:lost_app/presentations/post/widgets/display_photo_dialog.dart';
 import 'package:lost_app/shared/components/add_photo_dialog.dart';
 import 'package:lost_app/shared/components/constant.dart';
 

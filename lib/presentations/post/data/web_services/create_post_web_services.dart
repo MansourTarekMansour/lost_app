@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'dart:io';
 import 'package:http/http.dart';
 import 'package:lost_app/data/local/pref/user_pref.dart';
-import 'package:lost_app/post/data/models/create_post_dto.dart';
+import 'package:lost_app/presentations/post/data/models/create_post_dto.dart';
 
 import 'package:lost_app/shared/components/constant.dart';
 import 'package:lost_app/shared/network/remote/puplish_multi_part.dart';

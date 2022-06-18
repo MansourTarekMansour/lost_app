@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:lost_app/post/create_post_cubit/create_post_cubit.dart';
+import 'package:lost_app/presentations/post/create_post_cubit/create_post_cubit.dart';
 import 'package:lost_app/shared/components/alert_dialog_class.dart';
 import 'package:lost_app/shared/components/text_button_class.dart';
 import 'package:lost_app/shared/components/text_class.dart';
 import 'package:lost_app/shared/styles/color.dart';
 
-class CreatePostDialog extends StatelessWidget {
-  const CreatePostDialog({Key? key}) : super(key: key);
+class PostNotFoundDialog extends StatelessWidget {
+  const PostNotFoundDialog({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,8 +26,7 @@ class CreatePostDialog extends StatelessWidget {
             ),
             child: TextClass(
               text:
-                  'سنقوم بحفظ البيانات المدخله في قاعدة البيانات وانشاء منشور',
-              fontSize: 20,
+              'لم يتم العثور على أي نتائج سنقوم بحفظ البيانات المدخله في قاعدة البيانات وانشاء منشور',
             ),
           ),
           Container(
@@ -45,9 +44,6 @@ class CreatePostDialog extends StatelessWidget {
               textColor: lightGrey,
               onPressed: () {
                 Navigator.pop(context);
-                Navigator.pop(context);
-                Navigator.pop(context);
-
 
               },
             ),
@@ -63,7 +59,7 @@ class CreatePostDialog extends StatelessWidget {
               textColor: mainColor,
               onPressed: () {
                 addPersonDataCubit.setPost();
-               Navigator.pop(context);
+                Navigator.pop(context);
               },
             ),
           )
